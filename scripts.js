@@ -4,7 +4,7 @@ function algorithm() {
 
     // Retrieve user input
     radius = document.getElementById("byte_input").value;
-    document.write(byte_input);
+    alert(byte_input);
 
 
 }
