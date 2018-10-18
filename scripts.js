@@ -4,7 +4,7 @@ function algorithm() {
 
     // Retrieve user input
     radius = document.getElementById("byte_input").value;
-    Document.Write(byte_input);
+    document.write(byte_input);
 
 
 }
