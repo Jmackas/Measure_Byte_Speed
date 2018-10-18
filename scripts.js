@@ -1,10 +1,15 @@
 function algorithm() {
-    // variable declarations
-    var bytes;
+    // Variable declarations
+    var byteInput;
+    var byteOutput;
 
     // Retrieve user input
-    radius = document.getElementById("byte_input").value;
-    alert(byte_input);
+    byteInput = document.getElementById("byte_input").value;
+    byteOutput = document.getElementById("byte_output").value;
 
+    // Algorithm
+    byteOutput = byteInput;
 
+    // Output to user
+    document.getElementById("byte_output").value = byteOutput;
 }
